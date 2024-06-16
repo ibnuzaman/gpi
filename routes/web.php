@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\PasswordController;
+use App\Http\Controllers\Customer\CustomerController;
+use App\Http\Controllers\Admin\AdminController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -19,3 +21,14 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+
+// Customer route
+Route::middleware(['auth', 'customerMiddleware'])->group(function () {
+    Route::get('dashboard', [CustomerController::class, 'index'])->name('dashboard');
+});
+
+// Admin route
+Route::middleware(['auth', 'adminMiddleware'])->group(function () {
+    Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.dashboard');
+});

@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('nomorHp');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('tipe')->default('customer');
             $table->rememberToken();
             $table->timestamps();
         });
