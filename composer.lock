@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c905f51df1a0dc0721fadc13d584c5bb",
+    "content-hash": "131b1322f1fe8578c4bede3d40969d29",
     "packages": [
         {
             "name": "brick/math",
@@ -6854,66 +6854,6 @@
             "time": "2024-06-02T00:22:33+00:00"
         },
         {
-            "name": "laravel/breeze",
-            "version": "v2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/breeze.git",
-                "reference": "4b40708d13aab743a47251e52cc73989f68353bd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/breeze/zipball/4b40708d13aab743a47251e52cc73989f68353bd",
-                "reference": "4b40708d13aab743a47251e52cc73989f68353bd",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^11.0",
-                "illuminate/filesystem": "^11.0",
-                "illuminate/support": "^11.0",
-                "illuminate/validation": "^11.0",
-                "php": "^8.2.0",
-                "symfony/console": "^7.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^9.0",
-                "phpstan/phpstan": "^1.10"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Breeze\\BreezeServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Breeze\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
-            "keywords": [
-                "auth",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel/breeze/issues",
-                "source": "https://github.com/laravel/breeze"
-            },
-            "time": "2024-05-28T15:37:59+00:00"
-        },
-        {
             "name": "laravel/pint",
             "version": "v1.16.0",
             "source": {
@@ -7725,16 +7665,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.2.1",
+            "version": "11.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1b8775732e9c401bda32df3ffbdf90dec7533ceb"
+                "reference": "3e1843a58adc9c433ee6170bdee7d615f7ccc20b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1b8775732e9c401bda32df3ffbdf90dec7533ceb",
-                "reference": "1b8775732e9c401bda32df3ffbdf90dec7533ceb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3e1843a58adc9c433ee6170bdee7d615f7ccc20b",
+                "reference": "3e1843a58adc9c433ee6170bdee7d615f7ccc20b",
                 "shasum": ""
             },
             "require": {
@@ -7805,7 +7745,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.2.1"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.2.2"
             },
             "funding": [
                 {
@@ -7821,7 +7761,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-11T07:30:35+00:00"
+            "time": "2024-06-15T09:14:53+00:00"
         },
         {
             "name": "sebastian/cli-parser",
